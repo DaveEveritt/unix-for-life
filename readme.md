@@ -1,16 +1,30 @@
 # Basics of the Unix Philosophy
 
+> Be generous in what you accept, rigorous in what you emit.  
+> —[Chapter 1](http://www.faqs.org/docs/artu/ch01s08.html)
+
+I rediscovered the timeless "Basics of the Unix Philosophy", buried in my files awhile ago, and immediately thought how good it would be to adapt them for use as a socio-political model or way of being. Then thought (as is often the case)
+
+> "I'll make a repo for that…"
+
+I'd absorbed the document internally and realised that I follow it in actual life, without even thinking.
+
+This version is adapted from [Eric Raymond's version](http://www.catb.org/~esr/writings/taoup/html/))…
+
+---
+
 From: [Chapter 1. Philosophy](http://www.faqs.org/docs/artu/ch01s06.html)
 
 The Unix philosophy is not a formal design method. It wasn't handed down from the high fastnesses of theoretical computer science as a way to produce theoretically perfect software. Nor is it that perennial executive's mirage, some way to magically extract innovative but reliable software on too short a deadline from unmotivated, badly managed, and underpaid programmers.
 
 The Unix philosophy (like successful folk traditions in other engineering disciplines) is bottom-up, not top-down. It is pragmatic and grounded in experience. It is not to be found in official methods and standards, but rather in the implicit half-reflexive knowledge, the expertise that the Unix culture transmits. It encourages a sense of proportion and skepticism — and shows both by having a sense of (often subversive) humor.
 
-> "Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface." —Doug McIlroy, inventor of Unix pipes and one of the founders of the Unix tradition, in Peter H. Salus. A Quarter-Century of Unix. Addison-Wesley. 1994. ISBN 0-201-54777-5.
+> "Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface."  
+> —Doug McIlroy, inventor of Unix pipes and one of the founders of the Unix tradition, in Peter H. Salus. A Quarter-Century of Unix. Addison-Wesley. 1994. ISBN 0-201-54777-5.
 
 ---
 
-Rule of:
+## Rule of:
 
 **Modularity:** Write simple parts connected by clean interfaces.  
 	The only way to write complex software that won't fall on its face is to hold its global complexity down — to build it out of simple parts connected by well-defined interfaces, so that most problems are local and you can have some hope of upgrading a part without breaking the whole.
@@ -39,7 +53,7 @@ Rule of:
 **Representation:** Fold knowledge into data so program logic can be stupid and robust.  
 	Data is more tractable than program logic. It follows that where you see a choice between complexity in data structures and complexity in code, choose the former. More: in evolving a design, you should actively seek ways to shift complexity from code to data. C's facility at manipulating pointers has encouraged the use of dynamically-modified reference structures at all levels of coding from the kernel upward. Simple pointer chases in such structures frequently do duties that implementations in other languages would instead have to embody in more elaborate procedures.
 
-**Least **Surprise: In interface design, always do the least surprising thing.  
+**Least Surprise:** In interface design, always do the least surprising thing.  
 	the easiest programs to use ... connect to the user's pre-existing knowledge. ...your expected audience... may be end users, other programmers, or system administrators. What is least surprising can differ among these groups. It's often better to make things distinctly different than to make them almost the same.
 
 **Silence:** When a program has nothing surprising to say, it should say nothing.  
@@ -65,12 +79,6 @@ Rule of:
 	Never assume you have the final answer. Therefore, leave room for your data formats and code to grow... Always, always either include a version number, or compose the format from self-contained, self-describing clauses in such a way that new clauses can be readily added and old ones dropped without confusing format-reading code. ...[make] data layouts self-describing... When you design code, organize it so future developers will be able to plug new functions into the architecture without having to scrap and rebuild the architecture. [...] Make the joints flexible, and put “If you ever need to...” comments in your code. When you design for the future, the sanity you save may be your own.
 
 All the philosophy really boils down to one iron law, the hallowed ‘KISS principle’ of master engineers everywhere: Keep It Simple, Stupid!
-
----
-
-http://www.faqs.org/docs/artu/ch01s08.html
-
-Be generous in what you accept, rigorous in what you emit.
 
 ---
 
