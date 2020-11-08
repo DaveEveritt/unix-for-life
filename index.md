@@ -35,7 +35,9 @@
 ** ============== DONE TO HERE ============== **
 
 ## Representation: Fold knowledge into data so program logic can be stupid and robust.
- 
+
+(data can be complex, but the handling and presentation of data needs to be understandable—shift complexity towards data, keep it away from the handling and presentation fo that data. Make the handling and presentation of complex data simple and robust)
+
 > Data is more tractable than program logic. It follows that where you see a choice between complexity in data structures and complexity in code, choose the former. More: in evolving a design, you should actively seek ways to shift complexity from code to data. C's facility at manipulating pointers has encouraged the use of dynamically-modified reference structures at all levels of coding from the kernel upward. Simple pointer chases in such structures frequently do duties that implementations in other languages would instead have to embody in more elaborate procedures.
 
 ## Repair: When you must fail, fail noisily and as soon as possible.
@@ -44,16 +46,23 @@
 
 ## Economy: Programmer time is expensive; conserve it in preference to machine time.
 
+(don't laboriously undertake tasks manually when they can be handled at a less complex level)
+
 > If we took this maxim really seriously... most applications would be written in higher-level languages like Perl, Tcl, Python, Java, Lisp and even shell — languages that ease the programmer's burden by doing their own memory management. One other obvious way to conserve programmer time is to teach machines how to do more of the low-level work of programming. This leads to...
 
 ## Generation: Avoid hand-hacking; write programs to write programs when you can.
+
+(in creating processes that automate other processes, ensure that they generate error-free outcomes)
 
 > Human beings are notoriously bad at sweating the details... any kind of hand-hacking of programs is a rich source of delays and errors. The simpler and more abstracted your program specification can be, the more likely it is that the human designer will have gotten it right. Generated code (at every level) is almost always cheaper and more reliable than hand-hacked. It pays to use code generators when they can raise the level of abstraction — that is, when the specification language for the generator is simpler than the generated code... (code generators are heavily used to automate error-prone detail work. Parser/lexer generators are the classic examples; makefile generators and GUI interface builders are newer ones.)
 
 ## Optimization: Prototype before polishing. Get it working before you optimize it.
 
+(don't plan every detail from the start - you won;t be able to predict what needs to be done. Get things up and running, then bring in the people who will use a system to try it out and give you feedback)
+
 > Kernighan & Plauger's; “90% of the functionality delivered now is better than 100% of it delivered never”. premature local optimization actually hinders global optimization (and hence reduces overall performance). A prematurely optimized portion of a design frequently interferes with changes that would have much higher payoffs across the whole design, so you end up with both inferior performance and excessively complex code. ‘Extreme programming' guru Kent Beck: “Make it run, then make it right, then make it fast”. ...tune systematically, looking for the places where you can buy big performance wins with the smallest possible increases in local complexity.
-	"it is much easier to judge whether a prototype does what you want than it is to read a long specification. I remember one development manager at Bellcore who fought against the “requirements” culture years before anybody talked about “rapid prototyping” or “agile development”. He wouldn't issue long specifications; he'd lash together some combination of shell scripts and awk code that did roughly what was needed, tell the customers to send him some clerks for a few days, and then have the customers come in and look at their clerks using the prototype and tell him whether or not they liked it. If they did, he would say “you can have it industrial strength so-many-months from now at such-and-such cost”. His estimates tended to be accurate, but he lost out in the culture to managers who believed that requirements writers should be in control of everything." - Mike Lesk 
+> 
+>>	"it is much easier to judge whether a prototype does what you want than it is to read a long specification. I remember one development manager at Bellcore who fought against the “requirements” culture years before anybody talked about “rapid prototyping” or “agile development”. He wouldn't issue long specifications; he'd lash together some combination of shell scripts and awk code that did roughly what was needed, tell the customers to send him some clerks for a few days, and then have the customers come in and look at their clerks using the prototype and tell him whether or not they liked it. If they did, he would say “you can have it industrial strength so-many-months from now at such-and-such cost”. His estimates tended to be accurate, but he lost out in the culture to managers who believed that requirements writers should be in control of everything." - Mike Lesk 
 
 ## Diversity: Distrust all claims for “one true way”.
 
