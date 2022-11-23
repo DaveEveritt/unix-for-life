@@ -32,15 +32,14 @@
 
 > Large systems tend to be fragile and error-prone because they're too complicated for human understanding to grasp all at once. When you can't understand the internal workings of a system, you can't be sure it's fair, or fix it if it's broken. Systems are simple when they're uncomplicated enough for people to reason about their processes without struggling to understand them.
 
-** ============== DONE TO HERE ============== **
+## Representation: Fold knowledge into data so people don't need to work out what to do.
 
-## Representation: Fold knowledge into data so program logic can be stupid and robust.
+Keep actions on data simple and hide complexity in data. Acquired knowledge can be codified as data, to be transferred to other people. Organisations often fail in this through careless staff turnover, where experience and wisdom is not captured when staff members leave. If the resulting knowledge is complex, simplify the handling and presentation of it into graspable chunks to be easily implemented and understood at a glance. Where data is complex, ensure the route to acting on that data is straigntforard, unabmiguous and easily-uderstandable. We don't need to grasp all the complexity all the time, but any required data needs to be accessible from any facet. If more data is needed, set up the minimal pointers required to travel to greater depth as rerquired.
 
-(data can be complex, but the handling and presentation of data needs to be understandable—shift complexity towards data, keep it away from the handling and presentation fo that data. Make the handling and presentation of complex data simple and robust)
-
-> Data is more tractable than program logic. It follows that where you see a choice between complexity in data structures and complexity in code, choose the former. More: in evolving a design, you should actively seek ways to shift complexity from code to data. C's facility at manipulating pointers has encouraged the use of dynamically-modified reference structures at all levels of coding from the kernel upward. Simple pointer chases in such structures frequently do duties that implementations in other languages would instead have to embody in more elaborate procedures.
 
 ## Repair: When you must fail, fail noisily and as soon as possible.
+
+** ============== DONE TO HERE ============== **
 
 > It's best when software can cope with unexpected conditions by adapting to them, but the worst kinds of bugs are those in which the repair doesn't succeed and the problem quietly causes corruption that doesn't show up until much later. Therefore, write your software to cope with incorrect inputs and its own execution errors as gracefully as possible. But when it cannot, make it fail in a way that makes diagnosis of the problem as easy as possible. Design for generosity rather than compensating for inadequate standards with permissive implementations (e.g. HTML tag soup).
 
