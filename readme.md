@@ -3,16 +3,11 @@
 > Be generous in what you accept, rigorous in what you emit.  
 > —[Chapter 1](https://paulvanderlaken.com/2019/09/17/17-principles-of-unix-software-design/)
 
-<!--
-Dead: http://www.faqs.org/docs/artu/ch01s08.html
-Raymond: https://www.arp242.net/the-art-of-unix-programming/
--->
-
 I rediscovered the timeless *Basics of the Unix Philosophy* buried in my files awhile ago, and immediately thought how good it would be to adapt them for use as a socio-political-organisational model or way of being. Then thought (as I often do) “I’ll make a repo for that…” because I’d absorbed the document internally and realised that I follow it in actual life without even thinking. I wanted to share this knowledge, so here’s my attempt to translate these principles to human life.
 
 ---
 
-Adapted from [Eric Raymond's version](http://www.catb.org/~esr/writings/taoup/html/).
+Adapted from [Eric Raymond's version](http://www.catb.org/~esr/writings/taoup/html/) [and this version](https://www.arp242.net/the-art-of-unix-programming/)
 
 From: [Chapter 1. Philosophy](http://www.faqs.org/docs/artu/ch01s06.html)
 
