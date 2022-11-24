@@ -22,7 +22,7 @@
 
 ## Parsimony: Create big things only when it is clear by demonstration that nothing else will do
 
-> ‘Big’ = both large in volume and internal complexity. Allowing structures—social or material—to get too large hurts maintainability. People are reluctant to throw away the visible product of lots of work, but overly large structures invite over-investment in approaches that are failed or suboptimal.
+> ‘Big’ means both large in volume, and by internal complexity. Allowing structures—social or material—to get too large hurts maintainability. People are reluctant to throw away the visible product of lots of work, but overly large structures invite over-investment in approaches that are failed or suboptimal.
 
 ## Transparency: Design for visibility to make inspection and correction easier
 
@@ -34,7 +34,7 @@
 
 ## Representation: Fold knowledge into data so people don't need to work out what to do.
 
-> Hide complexity in data, but keep actions on data simple. Acquired knowledge can be stored as data, for others to access. Organisations often fail in this through careless staff turnover, where experience and wisdom are not captured when people with on-the-ground knowledge leave. If underlying data is well-structured, it is easier to create access to it. When complex, simplify presentation into graspable chunks that can be handled and understood at a glance. Make acting on specific data straigntforard, unabmiguous and easily-uderstandable. We don't need to grasp the details every time, but information needs to be accessible from any facet. Where more knowledge is requested, set up minimal pointers to travel to specific areas in greater depth only as required.
+> Hide complexity in data, but keep procedures on data simple. Store acquired knowledge as data for others to access—careless staff turnover loses valuable experience and wisdom if not captured from on-the-ground knowledge. Well-structured data is easier to understand than complex procedures. Simplify presentation into unabmiguous chunks that can be seen at a glance. We don't always need to grasp every detail, but where more knowledge is requested, set up minimal pointers to travel from any facet to specific details in greater depth.
 
 ## Silence: When there’s nothing surprising to say, say nothing.  
 
@@ -42,7 +42,9 @@
 
 ## Repair: When you must fail, fail noisily and as soon as possible.
 
-> Don’t try to cover up mistakes—the sooner they’re revealed, the quicker they can be fixed. If something doesn’t work as expected, make the issue public right away to prevent it escalating to other areas. If the cause of the failure appears to be user-generated, something in the system’s interface is misleading users into making a mistake. Encourage the reporting of errors so people can share problems they’re having. Shift repsonsibility away from them by admitting that the system is the point of failure. They don’t need to feel “stupid for making a mistake” if the system itself allows mistakes to be made. Every confused user who reports an issue is a valuable ally towards improvement in quality.
+> Don’t conceal errors—the sooner they’re revealed, the quicker they can be fixed. If something doesn’t work as expected, make the issue public to prevent it escalating to other areas. If the cause appears to be user-generated, something is misleading users into making a mistake. Encourage error-reporting so people share problems they’re having. Shift repsonsibility towards the system as the point of failure. People don’t need to feel “stupid for making a mistake” if a system allows mistakes to be made. Every confused user who reports an issue is a valuable ally towards improvement in quality.
+
+---
 
 ** ============== DONE TO HERE ============== **
 
