@@ -2,15 +2,15 @@
 
 ## Modularity: Write simple parts connected by simple language
 
-> The only way to tackle complex issues that won't fall apart is to hold global complexity down — to foster simple parts connected by well-defined communication channels and understandable language, so most problems are local to a specific part and there's some hope of updating one without breaking the whole.
+> The only way to tackle complex issues that won't fall apart is to hold global complexity down—to foster simple parts connected by well-defined communication channels and understandable language, so most problems are local to a specific part and there's some hope of updating one without breaking the whole.
 
 ## Clarity: Clarity is better than cleverness
 
-> Write policies as if the most important communication they have is not to the system but to the people who will implement, live them out and maintain them in future (including yourself). Making the key points graceful and clear… means they're less likely to be interpreted wrongly.
+> Write policies as if the most important communication they have is not to the system but to the people who will live them out, implement and maintain them in future (including yourself). Making the key points graceful and clear to ensure that they’re less likely to be interpreted wrongly.
 
 ## Composition: Create systems to be connected to other programs
 
-> To make systems composable, decouple them. A system at one end of a process should know only what is necessary about the processes of the system at the other end—it should not depend on it. It should be easy to replace one end with a newer, updated or different system without disturbing the other.
+> To make systems composable, decouple them. A system or individual at one end of a process should know only what is necessary about the processes of the system at the other end—they should not depend on it. It should be easy to replace one end with a newer, updated or different system without disturbing the other.
 
 ## Separation: Separate policy from implementation; separate idealism from action
 
@@ -38,11 +38,11 @@
 
 ## Silence: When there’s nothing surprising to say, say nothing.  
 
-> when a system has nothing interesting or surprising to say, it should shut up. Well-behaved systems (and departments) do their jobs unobtrusively, with a minimum of fuss and bother. Important information should not be polluted by verbosity about internal organisational behavior, catchphrases, acronyms, congratualtions and so on. People don’t need any more information than is required to do what they need to do, so only share crucial information.
+> when a system has nothing interesting or surprising to say, it should shut up. Well-behaved systems (and departments) do their jobs unobtrusively, with a minimum of fuss and bother. Important information should not be polluted by verbosity about internal organisational behavior, catchphrases, acronyms, congratualtions, personal messages and so on. People don’t need any more information than is required to do what they need to do, so share only what’s crucial and essential.
 
 ## Repair: When you must fail, fail noisily and as soon as possible.
 
-> Don’t try to cover up mistakes—the sooner they’re revealed, the quicker they can be fixed. If something doesn’t seem to be working properly, make the issue public right away so everyone knows, and to prevent it spreading or escalating to other areas. If the cause of the failure appears to be user-generated, something in the system’s interface is misleading users into making a mistake. Encourage the reporting of errors so people can easily report problems they’re having. Shift repsonsibility away from people and admit that the system is the point of failure. They don’t need to feel “stupid for making a mistake” if a failure in the system allows such mistakes to be made. Every confused user who reports an issue is a valuable ally towards improvement in a system’s quality.
+> Don’t try to cover up mistakes—the sooner they’re revealed, the quicker they can be fixed. If something doesn’t work as expected, make the issue public right away to prevent it escalating to other areas. If the cause of the failure appears to be user-generated, something in the system’s interface is misleading users into making a mistake. Encourage the reporting of errors so people can share problems they’re having. Shift repsonsibility away from them by admitting that the system is the point of failure. They don’t need to feel “stupid for making a mistake” if the system itself allows mistakes to be made. Every confused user who reports an issue is a valuable ally towards improvement in quality.
 
 ** ============== DONE TO HERE ============== **
 
