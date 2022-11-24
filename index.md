@@ -2,7 +2,7 @@
 
 ## Modularity: Write simple parts connected by simple language
 
-> The only way to tackle complex issues that won't fall apart is to hold global complexity down—to foster simple parts connected by well-defined communication channels and understandable language, so most problems are local to a specific part and there's some hope of updating one without breaking the whole.
+> The only way to tackle complex issues that won’t fall apart is to hold global complexity down—to foster simple parts connected by well-defined communication channels and understandable language, so most problems are local to a specific part and there’s some hope of updating one without breaking the whole.
 
 ## Clarity: Clarity is better than cleverness
 
@@ -30,11 +30,11 @@
 
 ## Robustness: the child of transparency and simplicity.
 
-> Large systems tend to be fragile and error-prone because they're too complicated for human understanding to grasp all at once. When you can't understand the internal workings of a system, you can't be sure it's fair, or fix it if it's broken. Systems are simple when they're uncomplicated enough for people to reason about their processes without struggling to understand them.
+> Large systems tend to be fragile and error-prone because they’re too complicated for human understanding to grasp all at once. When you can’t understand the internal workings of a system, you can’t be sure it’s fair, or fix it if it’s broken. Systems are simple when they’re uncomplicated enough for people to reason about their processes without struggling to understand them.
 
-## Representation: Fold knowledge into data so people don't need to work out what to do.
+## Representation: Fold knowledge into data so people don’t need to work out what to do.
 
-> Hide complexity in data, but keep procedures on data simple. Store acquired knowledge as data for others to access—careless staff turnover loses valuable experience and wisdom if not captured from on-the-ground knowledge. Well-structured data is easier to understand than complex procedures. Simplify presentation into unabmiguous chunks that can be seen at a glance. We don't always need to grasp every detail, but where more knowledge is requested, set up minimal pointers to travel from any facet to specific details in greater depth.
+> Hide complexity in data, but keep procedures on data simple. Store acquired knowledge as data for others to access—careless staff turnover loses valuable experience and wisdom if not captured from on-the-ground knowledge. Well-structured data is easier to understand than complex procedures. Simplify presentation into unabmiguous chunks that can be seen at a glance. We don’t always need to grasp every detail, but where more knowledge is requested, set up minimal pointers to travel from any facet to specific details in greater depth.
 
 ## Silence: When there’s nothing surprising to say, say nothing.  
 
@@ -50,28 +50,28 @@
 
 ## Economy: Programmer time is expensive; conserve it in preference to machine time.
 
-(don't laboriously undertake tasks manually when they can be handled at a less complex level)
+(don’t laboriously undertake tasks manually when they can be handled at a less complex level)
 
-> If we took this maxim really seriously... most applications would be written in higher-level languages like Perl, Tcl, Python, Java, Lisp and even shell — languages that ease the programmer's burden by doing their own memory management. One other obvious way to conserve programmer time is to teach machines how to do more of the low-level work of programming. This leads to...
+> If we took this maxim really seriously… most applications would be written in higher-level languages like Perl, Tcl, Python, Java, Lisp and even shell — languages that ease the programmer’s burden by doing their own memory management. One other obvious way to conserve programmer time is to teach machines how to do more of the low-level work of programming. This leads to…
 
 ## Generation: Avoid hand-hacking; write programs to write programs when you can.
 
 (in creating processes that automate other processes, ensure that they generate error-free outcomes)
 
-> Human beings are notoriously bad at sweating the details... any kind of hand-hacking of programs is a rich source of delays and errors. The simpler and more abstracted your program specification can be, the more likely it is that the human designer will have gotten it right. Generated code (at every level) is almost always cheaper and more reliable than hand-hacked. It pays to use code generators when they can raise the level of abstraction — that is, when the specification language for the generator is simpler than the generated code... (code generators are heavily used to automate error-prone detail work. Parser/lexer generators are the classic examples; makefile generators and GUI interface builders are newer ones.)
+> Human beings are notoriously bad at sweating the details… any kind of hand-hacking of programs is a rich source of delays and errors. The simpler and more abstracted your program specification can be, the more likely it is that the human designer will have gotten it right. Generated code (at every level) is almost always cheaper and more reliable than hand-hacked. It pays to use code generators when they can raise the level of abstraction — that is, when the specification language for the generator is simpler than the generated code… (code generators are heavily used to automate error-prone detail work. Parser/lexer generators are the classic examples; makefile generators and GUI interface builders are newer ones.)
 
 ## Optimization: Prototype before polishing. Get it working before you optimize it.
 
-(don't plan every detail from the start - you won;t be able to predict what needs to be done. Get things up and running, then bring in the people who will use a system to try it out and give you feedback)
+(don’t plan every detail from the start - you won;t be able to predict what needs to be done. Get things up and running, then bring in the people who will use a system to try it out and give you feedback)
 
-> Kernighan & Plauger's; “90% of the functionality delivered now is better than 100% of it delivered never”. premature local optimization actually hinders global optimization (and hence reduces overall performance). A prematurely optimized portion of a design frequently interferes with changes that would have much higher payoffs across the whole design, so you end up with both inferior performance and excessively complex code. ‘Extreme programming' guru Kent Beck: “Make it run, then make it right, then make it fast”. ...tune systematically, looking for the places where you can buy big performance wins with the smallest possible increases in local complexity.
+> Kernighan & Plauger’s; “90% of the functionality delivered now is better than 100% of it delivered never”. premature local optimization actually hinders global optimization (and hence reduces overall performance). A prematurely optimized portion of a design frequently interferes with changes that would have much higher payoffs across the whole design, so you end up with both inferior performance and excessively complex code. ‘Extreme programming’ guru Kent Beck: “Make it run, then make it right, then make it fast”. …tune systematically, looking for the places where you can buy big performance wins with the smallest possible increases in local complexity.
 > 
->>	"it is much easier to judge whether a prototype does what you want than it is to read a long specification. I remember one development manager at Bellcore who fought against the “requirements” culture years before anybody talked about “rapid prototyping” or “agile development”. He wouldn't issue long specifications; he'd lash together some combination of shell scripts and awk code that did roughly what was needed, tell the customers to send him some clerks for a few days, and then have the customers come in and look at their clerks using the prototype and tell him whether or not they liked it. If they did, he would say “you can have it industrial strength so-many-months from now at such-and-such cost”. His estimates tended to be accurate, but he lost out in the culture to managers who believed that requirements writers should be in control of everything." - Mike Lesk 
+>>	"it is much easier to judge whether a prototype does what you want than it is to read a long specification. I remember one development manager at Bellcore who fought against the “requirements” culture years before anybody talked about “rapid prototyping” or “agile development”. He wouldn’t issue long specifications; he’d lash together some combination of shell scripts and awk code that did roughly what was needed, tell the customers to send him some clerks for a few days, and then have the customers come in and look at their clerks using the prototype and tell him whether or not they liked it. If they did, he would say “you can have it industrial strength so-many-months from now at such-and-such cost”. His estimates tended to be accurate, but he lost out in the culture to managers who believed that requirements writers should be in control of everything." - Mike Lesk 
 
 ## Diversity: Distrust all claims for “one true way”.
 
-> Nobody is smart enough to optimize for everything, nor to anticipate all the uses to which their software might be put. Designing rigid, closed software that won't talk to the rest of the world is an unhealthy form of arrogance. ...the Unix tradition [...] embraces multiple languages, open extensible systems, and customization hooks everywhere.
+> Nobody is smart enough to optimize for everything, nor to anticipate all the uses to which their software might be put. Designing rigid, closed software that won’t talk to the rest of the world is an unhealthy form of arrogance. …the Unix tradition […] embraces multiple languages, open extensible systems, and customization hooks everywhere.
 
 ## Extensibility: Design for the future, because it will be here sooner than you think.
 
-> Never assume you have the final answer. Therefore, leave room for your data formats and code to grow... Always, always either include a version number, or compose the format from self-contained, self-describing clauses in such a way that new clauses can be readily added and old ones dropped without confusing format-reading code. Make data layouts self-describing... When you design code, organize it so future developers will be able to plug new functions into the architecture without having to scrap and rebuild the architecture. Make the joints flexible, and put “If you ever need to...” comments in your code. When you design for the future, the sanity you save may be your own.
+> Never assume you have the final answer. Therefore, leave room for your data formats and code to grow… Always, always either include a version number, or compose the format from self-contained, self-describing clauses in such a way that new clauses can be readily added and old ones dropped without confusing format-reading code. Make data layouts self-describing… When you design code, organize it so future developers will be able to plug new functions into the architecture without having to scrap and rebuild the architecture. Make the joints flexible, and put “If you ever need to…” comments in your code. When you design for the future, the sanity you save may be your own.
