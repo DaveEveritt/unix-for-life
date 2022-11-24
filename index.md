@@ -6,7 +6,7 @@
 
 ## Clarity: Clarity is better than cleverness
 
-> Write policies as if the most important communication they have is not to the system but to the people who will implement, live them out and maintain them in future (including yourself). Making the key points graceful and clear... means they're less likely to be interpreted wrongly.
+> Write policies as if the most important communication they have is not to the system but to the people who will implement, live them out and maintain them in future (including yourself). Making the key points graceful and clear… means they're less likely to be interpreted wrongly.
 
 ## Composition: Create systems to be connected to other programs
 
@@ -24,9 +24,9 @@
 
 > ‘Big’ = both large in volume and internal complexity. Allowing structures—social or material—to get too large hurts maintainability. People are reluctant to throw away the visible product of lots of work, but overly large structures invite over-investment in approaches that are failed or suboptimal.
 
-## Transparency: Design for visibility to make inspection and debugging easier
+## Transparency: Design for visibility to make inspection and correction easier
 
-> A system is transparent when you can look at it and immediately understand what it is doing and how. It is discoverable when it has facilities for monitoring and can display its internal state so that it not only functions well, but can be *seen* to function well.
+> A system is transparent when you can look at it and immediately understand what it is doing and how. It is discoverable when it has facilities for monitoring and can display its internal state so that it not only functions well, but can be *seen* to function well. Use the principle of least surprise by appealing to peoples’ pre-existing knowledge and assumptions.
 
 ## Robustness: the child of transparency and simplicity.
 
@@ -34,14 +34,17 @@
 
 ## Representation: Fold knowledge into data so people don't need to work out what to do.
 
-Keep actions on data simple and hide complexity in data. Acquired knowledge can be codified as data, to be transferred to other people. Organisations often fail in this through careless staff turnover, where experience and wisdom is not captured when staff members leave. If the resulting knowledge is complex, simplify the handling and presentation of it into graspable chunks to be easily implemented and understood at a glance. Where data is complex, ensure the route to acting on that data is straigntforard, unabmiguous and easily-uderstandable. We don't need to grasp all the complexity all the time, but any required data needs to be accessible from any facet. If more data is needed, set up the minimal pointers required to travel to greater depth as rerquired.
+> Hide complexity in data, but keep actions on data simple. Acquired knowledge can be stored as data, for others to access. Organisations often fail in this through careless staff turnover, where experience and wisdom are not captured when people with on-the-ground knowledge leave. If underlying data is well-structured, it is easier to create access to it. When complex, simplify presentation into graspable chunks that can be handled and understood at a glance. Make acting on specific data straigntforard, unabmiguous and easily-uderstandable. We don't need to grasp the details every time, but information needs to be accessible from any facet. Where more knowledge is requested, set up minimal pointers to travel to specific areas in greater depth only as required.
 
+## Silence: When there’s nothing surprising to say, say nothing.  
+
+> when a system has nothing interesting or surprising to say, it should shut up. Well-behaved systems (and departments) do their jobs unobtrusively, with a minimum of fuss and bother. Important information should not be polluted by verbosity about internal organisational behavior, catchphrases, acronyms, congratualtions and so on. People don’t need any more information than is required to do what they need to do, so only share crucial information.
 
 ## Repair: When you must fail, fail noisily and as soon as possible.
 
-** ============== DONE TO HERE ============== **
+> Don’t try to cover up mistakes—the sooner they’re revealed, the quicker they can be fixed. If something doesn’t seem to be working properly, make the issue public right away so everyone knows, and to prevent it spreading or escalating to other areas. If the cause of the failure appears to be user-generated, something in the system’s interface is misleading users into making a mistake. Encourage the reporting of errors so people can easily report problems they’re having. Shift repsonsibility away from people and admit that the system is the point of failure. They don’t need to feel “stupid for making a mistake” if a failure in the system allows such mistakes to be made. Every confused user who reports an issue is a valuable ally towards improvement in a system’s quality.
 
-> It's best when software can cope with unexpected conditions by adapting to them, but the worst kinds of bugs are those in which the repair doesn't succeed and the problem quietly causes corruption that doesn't show up until much later. Therefore, write your software to cope with incorrect inputs and its own execution errors as gracefully as possible. But when it cannot, make it fail in a way that makes diagnosis of the problem as easy as possible. Design for generosity rather than compensating for inadequate standards with permissive implementations (e.g. HTML tag soup).
+** ============== DONE TO HERE ============== **
 
 ## Economy: Programmer time is expensive; conserve it in preference to machine time.
 
