@@ -2,7 +2,7 @@
 
 ## Modularity: Write simple parts connected by simple language
 
-> The only way to tackle complex issues that won’t fall apart is to hold global complexity down—to foster simple parts connected by well-defined communication channels and understandable language, so most problems are local to a specific part and there’s some hope of updating one without breaking the whole.
+> The only way to tackle complex issues that won’t fall apart is to keep global complexity down. Instead, foster simple parts connected by well-defined communication channels and understandable language, so most problems are local to a specific part and there are opportunities for updating one part without breaking the whole.
 
 ## Clarity: Clarity is better than cleverness
 
@@ -10,11 +10,11 @@
 
 ## Composition: Create systems to be connected to other programs
 
-> To make systems composable, decouple them. A system or individual at one end of a process should know only what is necessary about the processes of the system at the other end—they should not depend on it. It should be easy to replace one end with a newer, updated or different system without disturbing the other.
+> To make systems composable, decouple them. A system or individual at one end of a process should know only what is *absolutely necessary* about the processes of the system at the other end—they should not depend on it. It should be easy to replace one end with a newer, updated or different system without disturbing the other end.
 
 ## Separation: Separate policy from implementation; separate idealism from action
 
-> Policy and implementation tend to mutate at different timescales, with policy changing much faster than the ability to implement it. Political and social trends may come and go, but basic human needs, methods of implementation and psychology change very little.
+> Policy and implementation tend to mutate at different timescales, with policy changing much faster than the ability to implement it. Political and social trends and fashions come and go, but basic human needs, methods of implementation and psychology change very little.
 
 ## Simplicity: Design for simplicity; add complexity only where you must
 
@@ -22,7 +22,7 @@
 
 ## Parsimony: Create big things only when it is clear by demonstration that nothing else will do
 
-> ‘Big’ means both large in volume, and by internal complexity. Allowing structures—social or material—to get too large hurts maintainability. People are reluctant to throw away the visible product of lots of work, but overly large structures invite over-investment in approaches that are failed or suboptimal.
+> ‘Big’ means both large in volume, and by internal complexity. Allowing structures—social or material—to get too large hurts maintainability. People are reluctant to throw away the visible product or time investment put into what they work on and with, but overly large structures invite over-investment in approaches that can fail spectacularly or become suboptimal and hard to update.
 
 ## Transparency: Design for visibility to make inspection and correction easier
 
@@ -30,19 +30,19 @@
 
 ## Robustness: the child of transparency and simplicity.
 
-> Large systems tend to be fragile and error-prone because they’re too complicated for human understanding to grasp all at once. When you can’t understand the internal workings of a system, you can’t be sure it’s fair, or fix it if it’s broken. Systems are simple when they’re uncomplicated enough for people to reason about their processes without struggling to understand them.
+> Large systems tend to be fragile and error-prone because they’re too complicated for human understanding to grasp all at once. When the internal workings of a system are obscure or not open to scrutiny, you can’t be sure it’s fair, or fix it if it’s broken. Robust systems work best when they’re uncomplicated enough for people to reason about their processes without struggling to understand them.
 
 ## Representation: Fold knowledge into data so people don’t need to work out what to do.
 
-> Hide complexity in data, but keep procedures on data simple. Store acquired knowledge as data for others to access—careless staff turnover loses valuable experience and wisdom if not captured from on-the-ground knowledge. Well-structured data is easier to understand than complex procedures. Simplify presentation into unabmiguous chunks that can be seen at a glance. We don’t always need to grasp every detail, but where more knowledge is requested, set up minimal pointers to travel from any facet to specific details in greater depth.
+> Hide complexity in data, but keep procedures on data simple (e.g. make it easy to edit). Store acquired knowledge as data for others to access—staff turnover loses valuable experience and wisdom if not captured from on-the-ground knowledge. Well-structured data is easier to understand than complex procedures. Simplify presentation into unabmiguous chunks that can be seen at a glance. We don’t always need to grasp every detail, but where more knowledge is requested, set up pointers to enable people to travel from any facet to specific in-depth details.
 
 ## Silence: When there’s nothing surprising to say, say nothing.  
 
-> when a system has nothing interesting or surprising to say, it should shut up. Well-behaved systems (and departments) do their jobs unobtrusively, with a minimum of fuss and bother. Important information should not be polluted by verbosity about internal organisational behavior, catchphrases, acronyms, congratualtions, personal messages and so on. People don’t need any more information than is required to do what they need to do, so share only what’s crucial and essential.
+> when a system has nothing interesting or surprising to say, it should shut up. Well-behaved systems (and departments) do their jobs unobtrusively, with a minimum of fuss and bother. Important information should not be polluted by verbosity about internal organisational behavior, catchphrases, acronyms, congratulations, personal messages and so on. People don’t need any more information than they require to do what they need to do, so share only what’s crucial and essential.
 
 ## Repair: When you must fail, fail noisily and as soon as possible.
 
-> Don’t conceal errors—the sooner they’re revealed, the quicker they can be fixed. If something doesn’t work as expected, make the issue public to prevent it escalating to other areas. If the cause appears to be user-generated, something is misleading users into making a mistake. Encourage error-reporting so people share problems they’re having. Shift repsonsibility towards the system as the point of failure. People don’t need to feel “stupid for making a mistake” if a system allows mistakes to be made. Every confused user who reports an issue is a valuable ally towards improvement in quality.
+> Don’t conceal errors—the sooner they’re revealed, the quicker they can be fixed. If something doesn’t work as expected, make the issue public to prevent it escalating to other areas. If the cause appears to be generated by people, something is misleading them into making a mistake. Encourage error-reporting so people share problems they’re having. Shift repsonsibility towards the system as the point of failure. People don’t need to feel “stupid for making a mistake”, if a system *allows mistakes* to be made. Every confused user who reports a problem is a valuable ally towards improvement in quality.
 
 ---
 

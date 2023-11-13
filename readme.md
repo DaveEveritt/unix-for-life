@@ -3,7 +3,7 @@
 > Be generous in what you accept, rigorous in what you emit.  
 > —[Chapter 1](https://paulvanderlaken.com/2019/09/17/17-principles-of-unix-software-design/)
 
-I rediscovered the timeless *Basics of the Unix Philosophy* buried in my files awhile ago, and immediately thought how good it would be to adapt them for use as a socio-political-organisational model or way of being. Then thought (as I often do) “I’ll make a repo for that…” because I’d absorbed the document internally and realised that I follow it in actual life without even thinking. I wanted to share this knowledge, so here’s my attempt to translate these principles to human life.
+I rediscovered the timeless *Basics of the Unix Philosophy* buried in my files awhile ago, and immediately thought how good it would be to adapt them for use as a human rather than a machine. So I made a repo for it, because I’d absorbed the document internally and realised that I follow some of the principles in actual life without even thinking about it. So in the Unix spirit of sharing, here’s my attempt to translate these principles to human life.
 
 ---
 
@@ -15,8 +15,7 @@ The Unix philosophy is not a formal design method. It wasn't handed down from th
 
 The Unix philosophy (like successful folk traditions in other engineering disciplines) is bottom-up, not top-down. It is pragmatic and grounded in experience. It is not to be found in official methods and standards, but rather in the implicit half-reflexive knowledge, the expertise that the Unix culture transmits. It encourages a sense of proportion and skepticism — and shows both by having a sense of (often subversive) humor.
 
-> "Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface."  
-> —Doug McIlroy, inventor of Unix pipes and one of the founders of the Unix tradition, in Peter H. Salus. A Quarter-Century of Unix. Addison-Wesley. 1994. ISBN 0-201-54777-5.
+> "Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface."  <small>Doug McIlroy, inventor of Unix pipes and one of the founders of the Unix tradition, in Peter H. Salus. A Quarter-Century of Unix. Addison-Wesley. 1994. ISBN 0-201-54777-5.</small>
 
 ---
 
