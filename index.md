@@ -1,5 +1,7 @@
 # Basics of the Unix Philosophy for life
 
+{:toc}
+
 ## Modularity: Write simple parts connected by simple language
 
 > The only way to tackle complex issues that won’t fall apart is to keep global complexity down. Instead, foster simple parts connected by well-defined communication channels and understandable language, so most problems are local to a specific part and there are opportunities for updating one part without breaking the whole.
