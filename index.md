@@ -62,12 +62,14 @@
 
 ## Diversity: Distrust all claims for “one true way”, embrace the excluded and  uninvited
 
-There is no absolutely correct way of doing things, as there is never a way to anticipate eveything that might happen, or how people might respond to a system, a group or a person. If there are no channels of communication, a system or organisation becomes isolated and self-referential, prone to arrogancem as well as subjective error and the exclusion of those outside its own boundaries. We need to remain open to unexpectied and diverse inputs, multiple responses and approaches, and unforeseen interactions.
+> There is no absolutely correct way of doing things, as there is never a way to anticipate eveything that might happen, or how people might respond to a system, a group or a person. If there are no channels of communication, a system or organisation becomes isolated and self-referential, prone to arrogancem as well as subjective error and the exclusion of those outside its own boundaries. We need to remain open to unexpectied and diverse inputs, multiple responses and approaches, and unforeseen interactions.
 
 ---
 
 ** ============== DONE TO HERE ============== **
 
 ## Extensibility: Design for the future, because it will be here sooner than you think.
+
+Never assume you have the final answer. Therefore, leave room for your data formats and code to grow… Always, always either include a version number, or compose the format from self-contained, self-describing clauses in such a way that new clauses can be readily added and old ones dropped without confusing format-reading code. Make data layouts self-describing… When you design code, organize it so future developers will be able to plug new functions into the architecture without having to scrap and rebuild the architecture. Make the joints flexible, and put “If you ever need to…” comments in your code. When you design for the future, the sanity you save may be your own.
 
 > Never assume you have the final answer. Therefore, leave room for your data formats and code to grow… Always, always either include a version number, or compose the format from self-contained, self-describing clauses in such a way that new clauses can be readily added and old ones dropped without confusing format-reading code. Make data layouts self-describing… When you design code, organize it so future developers will be able to plug new functions into the architecture without having to scrap and rebuild the architecture. Make the joints flexible, and put “If you ever need to…” comments in your code. When you design for the future, the sanity you save may be your own.
