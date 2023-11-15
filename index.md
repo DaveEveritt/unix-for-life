@@ -60,13 +60,13 @@
 
 > don’t delay by planning every detail of something top-down from the start - you won’t be able to predict what might need to be done once other people or teams get involved. Get things up and running, then bring in people who will use the system/thing/process to let them try it out and give feedback. Resist changing anything until there’s enough concrete feedback from those involved to ensure that any change improves the service or process, or enhances people’s experience of it as operators or recipients. To sum up: “Make it work, then make it right, then make it easy”. It’s better to deliver 90% of something than fail to deliver anything at all. Let people try it out, make adjustments based on their feedback, note where bottlenecks appear, let them try it again, and repeat.
 
+## Diversity: Distrust all claims for “one true way”, embrace the excluded and  uninvited
+
+There is no absolutely correct way of doing things, as there is never a way to anticipate eveything that might happen, or how people might respond to a system, a group or a person. If there are no channels of communication, a system or organisation becomes isolated and self-referential, prone to arrogancem as well as subjective error and the exclusion of those outside its own boundaries. We need to remain open to unexpectied and diverse inputs, multiple responses and approaches, and unforeseen interactions.
+
 ---
 
 ** ============== DONE TO HERE ============== **
-
-## Diversity: Distrust all claims for “one true way”.
-
-> Nobody is smart enough to optimize for everything, nor to anticipate all the uses to which their software might be put. Designing rigid, closed software that won’t talk to the rest of the world is an unhealthy form of arrogance. …the Unix tradition […] embraces multiple languages, open extensible systems, and customization hooks everywhere.
 
 ## Extensibility: Design for the future, because it will be here sooner than you think.
 
