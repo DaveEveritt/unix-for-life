@@ -1,5 +1,8 @@
 # Basics of the Unix Philosophy for life
 
+([GitHub repo](https://github.com/DaveEveritt/unix-for-life))
+
+* auto-gen TOC:
 {:toc}
 
 ## Modularity: Write simple parts connected by simple language
