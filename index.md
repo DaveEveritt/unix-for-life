@@ -55,7 +55,7 @@
 > 
 > This leads to…
 
-## Generation: Avoid guesswork when automating, check for error-free outcomes and allow reversal if wrong
+## Generation: Avoid guesswork when automating, check for error-free outcomes, enable reversal if wrong
 
 > Human beings are bad at processing details; individual input is a rich source of delay and error. The simpler the guidelines, the more likely the operator will get it right. Time-tested automated procedures (at every level) are almost always cheaper and more reliable than hand-operated ones. So use automated output generators or simple guides whenever they raise the level of abstraction; that is, make guidelines to *operate* a process simpler than the process itself. Don’t clutter things with unnecessary details that can be automated. As a failsafe, preserve the current state to enable a “rollback”.
 
