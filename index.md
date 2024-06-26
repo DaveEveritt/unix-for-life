@@ -1,4 +1,5 @@
 # Basics of the Unix Philosophy for life
+{: .no_toc}
 
 ([GitHub repo](https://github.com/DaveEveritt/unix-for-life))
 
