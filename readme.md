@@ -5,7 +5,7 @@
 > Be generous in what you accept, rigorous in what you emit.  
 > —[Chapter 1](https://paulvanderlaken.com/2019/09/17/17-principles-of-unix-software-design/)
 
-I rediscovered the timeless *Basics of the Unix Philosophy* buried in my files awhile ago, and immediately thought how good it would be to adapt them for use as a human, as well as for programming a machine. So I rewrote them because I’d absorbed the document internally, realising that I follow some of the principles in actual life without even thinking about it. So in the Unix spirit of sharing, here’s my attempt to translate these principles to real life.
+I rediscovered the timeless *Basics of the Unix Philosophy* buried in my files awhile ago, and immediately thought how good it would be to generalise them for human use, as well as for programming a machine. This rewrite comes after realising that I follow some of the principles in actual life without even thinking about it, because I’d absorbed them internally. So in the Unix spirit of sharing, here’s my attempt to translate these principles to real life.
 
 See the result: [“Unix for Life”](https://daveeveritt.github.io/unix-for-life/).
 
