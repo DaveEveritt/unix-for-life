@@ -6,68 +6,68 @@
 * auto-gen TOC:
 {:toc}
 
-## Modularity: Write simple parts connected by simple language
+## Modularity: Write Simple Parts Connected by Simple Language
 
-> The only way to tackle complex issues that won’t fall apart is to keep global complexity down. Instead, foster simple parts connected by well-defined communication channels and understandable language, so most problems are local to a specific area and there are opportunities for updating one part without breaking the whole.
+> To tackle complex issues that won’t fall apart, keep global complexity down. Instead, foster simple parts connected by well-defined communication channels and clear language, so problems remain local to a specific area, and it’s possible to update one part without breaking the whole.
 
-## Clarity: Clarity is better than cleverness
+## Clarity: Clarity is Better Than Cleverness
 
-> Write policies as if the most important communication they have is not to the system but to the people who will implement and maintain them in future (including yourself). Make the key points graceful and clear to ensure that they’re less likely to be misinterpreted.
+> Write policies as if the most important communication is not to the system but to the people who will implement and maintain them in future (including yourself). Make key points graceful and clear to reduce the chance of misinterpretation.
 
-## Composition: Create systems to be connected to other programs
+## Composition: Create Systems to be Connected to Other Programs
 
-> To make systems composable, decouple them. A system or individual at one end of a process should know only what is *absolutely necessary* about the processes at the other end—they should not depend on it. Make it easy to replace one end with a newer, updated or different system without disturbing the other end.
+> To make systems composable, decouple them. A system—or individual—at one end of a process only needs to know what is *absolutely necessary* about processes at the other end—they should not depend on it. Make it easy to replace one end with a newer, updated or different system without disturbing the other end.
 
-## Separation: Separate policy from implementation; separate idealism from action
+## Separation: Separate Policy From Implementation; Separate Idealism From Action
 
-> Policy and implementation mutate at different timescales—policy changes much faster than the ability to implement it. Political and social trends and fashions come and go, but basic human needs, methods of implementation and psychology change very little. Respect inertia to policy changes that happen too often or too quickly.
+> Policy and implementation of policy operate at different timescales. Policy can change faster than the ability to implement it. Political and social trends come and go but basic human needs and ways of working change very little. Respect inertia to changes that happen too often or too quickly.
 
-## Simplicity: Design for simplicity; add complexity only where you must
+## Simplicity: Design For Simplicity; Add Complexity Only Where You Must
 
-> encourage a culture that knows that small is beautiful, that actively resists bloat and complexity: a tradition that puts a high value on simple solutions, looks for ways to break systems up into small cooperating pieces, and reflexively fights attempts to add anything that has no elegance, meaning or function.
+> encourage a “small is beautiful” culture that actively resists bloat and complexity, puts a high value on simple solutions, finds ways to break systems up into small cooperating pieces, and fights attempts to add anything lacking elegance, meaning or function.
 
-## Parsimony: Create big things only when it is demonstrably clear that nothing else will do
+## Parsimony: Create Big Things Only When Demonstrably Clear Nothing Else Will Do
 
-> *Big* means both large in volume, and internal complexity. Allowing structures—social or material—to get too big hurts maintainability. People resist throwing away the visible product or time investment put into what they work on and with, but too-large structures invite over-investment in approaches that can fail spectacularly or become suboptimal and hard to update. If a big centralised system breaks, it brings down everything else.
+> Allowing structures—social or material—to get too big in volume and/or internal complexity harms maintainability. People resist discarding visible products or time investments in the familiar, but big structures accumulate over-investment in things that can fail spectacularly, become inefficient or hard to update. Centralised system collapses bring down everything else.
 
-## Transparency: Design for visibility to make inspection and correction easier
+## Transparency: Design For Visibility to Make Inspection And Correction Easier
 
-> A system is *transparent* when you can look at it and immediately understand what it is doing and how. It is *discoverable* when it has facilities for monitoring and can display its internal state so that it not only functions well, but can be *seen* to function well. Use the principle of least surprise by appealing to peoples’ pre-existing knowledge and assumptions. Don’t confuse things by being too clever.
+> A system is *transparent* when you can immediately understand what it’s doing and how. It is *discoverable* when its internal state can be monitored and displayed. If it functions well, it needs to be *seen* to function well. Use the principle of least surprise by appealing to pre-existing knowledge and assumptions. Don’t be too clever.
 
-## Robustness: The child of transparency and simplicity
+## Robustness: The Child of Transparency And Simplicity
 
-> Large systems tend to be fragile and error-prone because they’re too complicated for human understanding to grasp all at once. When the internal workings of a system are obscure or not open to scrutiny, you can’t be sure it’s fair, or see how to fix what’s broken. Systems are most robust when uncomplicated enough for people to reason about their processes without struggling to understand them. If no-one can work out what’s gone wrong, no-one can fix the problem.
+> Large systems tend to be fragile and error-prone because they’re too complicated to understand all at once. When internal workings are obscure or not open to scrutiny, it’s hard to tell if it’s fair, or to fix what’s broken. Uncomplicated systems are robust when people can reason about their processes easily. If no-one can work out what’s gone wrong, no-one can fix the problem.
 
-## Representation: Fold knowledge into data so people don’t need to work out what to do
+## Representation: Fold Knowledge Into Data so People Don’t Need to Work Out What to do
 
-> Hide complexity in data, but keep *procedures on data* simple (e.g. easy to update or retrieve). Store acquired knowledge as data for others to access—for instance, staff turnover loses valuable experience and on-the-ground wisdom if this isn’t captured. Plain, well-structured data is easier to understand than complex procedures. Simplify data presentation in unambiguous at-a-glance chunks. We don’t always want every detail, but where more knowledge is requested, enable people to to open in-depth specifics from any facet.
+> Hide complexity in data, but keep *procedures on data* simple (e.g. easy to update or retrieve). Store acquired knowledge as data for others to access—for instance, staff changes lose valued experience and acquired wisdom unless this is captured. Well-structured data are easier to understand than complex procedures. Simplify data presentation in at-a-glance chunks, but enable access to in-depth specifics at any point.
 
-## Silence: When there’s nothing surprising to say, say nothing
+## Silence: When There’s Nothing Surprising to Say, Say Nothing
 
-> when a system has nothing interesting or surprising to say, it should shut up. Well-behaved systems (and departments) do their jobs unobtrusively, with a minimum of fuss and bother. Important information should not be polluted by verbosity about what’s happening at every moment, or about internal organisational behavior, catchphrases, acronyms, congratulations, personal messages and so on. People don’t need any more information than what is required at any given time, so share only what’s crucial and essential.
+> when a system has nothing interesting or surprising to say, it should shut up. Well-behaved systems (and departments) are unobtrusive. Don’t pollute important information with unnecessary verbosity, internal organisational behavior, catchphrases, acronyms, congratulations, personal messages etc. Avoid pushing more information than required—share only what’s crucial and essential.
 
-## Repair: When something fails, make it fail noisily and as soon as possible
+## Repair: When Something Fails, Make it Fail Noisily And as Soon as Possible
 
-> Don’t conceal errors and mistakes—the sooner they’re revealed, the quicker they can be fixed. If something doesn’t work as expected, make the issue public to prevent it escalating elsewhere. If the cause appears to be human error, presume that they’re being misled into making a mistake. Encourage error-reporting so people share problems they’re having. Shift responsibility towards the system as the point of failure. Don’t make people feel stupid for making a mistake if a system *allows mistakes*. Every confused user who reports a problem is a valuable ally towards improvement.
+> Reveal errors and mistakes immediately for rapid fixing. Encourage error-reporting and problem-sharing. If something doesn’t work, prevent escalation by making it public. Presume that apparent human errors are from being misled—if a system *allows mistakes*, don’t make people feel stupid—see the system as the point of failure. MAke every confused user an ally for improvement.
 
-## Economy: person-time is expensive, conserve it over system administration
+## Economy: Person-time is Expensive, Conserve it Over System Administration
 
-> Don’t laboriously undertake manual tasks that can be handled at a less complex level. Create routines to automate repetitive tasks, or offer step-by-step guides to cognitively-demanding jobs for others to follow easily without learning how they work (unless that’s their job). Where tedious administration can be automated, set up a machine to do the work, following a previously-tested procedure, or enable a machine to check for certain triggers (e.g. time- or date-sensitive) that initiate and complete tasks automatically, optionally informing someone afterwards who can ensure that it’s done.
+> Don’t laboriously undertake manual or repetitive tasks; create automated routines or, for more demanding jobs, offer step-by-step guides for others to follow without learning how they work. Where automation is possible, set up machines to follow previously-tested procedures, or enable them to check for certain triggers (e.g. time- or date-sensitive) and initiate automatic tasks, optionally informing someone afterwards to validate the outcome.
 > 
 > This leads to…
 
-## Generation: Avoid guesswork when automating, check for error-free outcomes, enable reversal if wrong
+## Generation: Avoid Guesswork When Automating, Check For Error-Free Outcomes And Enable Reversal
 
-> Human beings are bad at processing details; individual input is a rich source of delay and error. The simpler the guidelines, the more likely the operator will get it right. Time-tested automated procedures (at every level) are almost always cheaper and more reliable than hand-operated ones. So use automated output generators or simple guides whenever they raise the level of abstraction; that is, make guidelines to *operate* a process simpler than the process itself. Don’t clutter things with unnecessary details that can be automated. As a failsafe, preserve the current state to enable a “rollback”.
+> Individual human input is a source of delay and error. Simpler guidelines make it more likely the operator will get it right. Time-tested automated procedures are almost always more reliable than hand-operated ones. Use automation or simple guides where they aid abstraction i.e make guidelines to *operate* a process simpler than the process itself. Avoid unnecessary details. Before any change, preserve the current state to enable a “rollback”.
 
-## Optimization: Prototype things as soon as possible; just get stuff working instead aiming for perfection
+## Optimization: Prototype Early; Get Stuff Working Instead Aiming For Perfection
 
-> don’t plan every detail top-down from the start—you can’t predict what might need to be done once people and teams get involved. Once up and running, invite users to try it and give feedback. Resist demands for changes until there’s enough input from those involved to guarantee *improvements* of the service or process, or people’s experience of it. To sum up: “Make it work, then make it right, then make it easy”. Delivering 90% of something is better than failing to deliver at all. After feedback-informed adjustments, invite people to try it again, and repeat. Make them part of the process.
+> Don’t plan every detail top-down; you can’t predict what might happen in actual practice. Invite people to try things early and give feedback, yet resist demands for change until there’s enough input to guarantee improvement or better user experience. “Make it work, then make it right, then make it easy”. Delivering 90% of something is better than failing to deliver at all. After adjustments, invite people to try again, and repeat—make them part of the process.
 
-## Diversity: Distrust all claims for “one true way”, embrace the excluded and uninvited
+## Diversity: Distrust All Claims For One True Way”, Embrace the Excluded and Uninvited
 
-> There is rarely a single correct way of doing things, because there is never a way to anticipate everything that might happen, or how people might respond to a system, a group or a person. If there are no channels of communication, a system or organisation becomes isolated, over-confident, self-referential and prone to arrogance, as well as liable to subjective error and the exclusion of those outside its own boundaries. We need to remain open to unexpected and diverse inputs, multiple responses and approaches, and unforeseen interactions.
+> There is rarely a single correct approach, because there is no way to anticipate everything, or forecast how people will respond to systems, groups or individuals. Without good channels of communication, systems or organisations become isolated, over-confident, self-referential, prone to arrogance and liable to subjective error, partly from the exclusion of anyone outside its boundaries. Remain open to unexpected and diverse inputs, multiple responses and approaches, and unforeseen interactions.
 
-## Extensibility: Anticipate the future, because it will be here sooner than you think
+## Extensibility: Anticipate the Future, Because it Will be Here Sooner Than You Think
 
-> Never assume something is finished—leave room to grow, but keep records of each stable state. If adding or changing anything, record when and what they are in self-contained documents independent of the original system. Enable old methods to be replaced by new ones without conflict, making connections between different components clear and yet flexible. In documentation, use comments like “If you ever need to…”. Above all, make a system resistant to complete rebuilds by using modular elements that can be updated or replaced without disrupting what already works well, so new functions can be plugged in without having to rebuild everything. When you design for the future, the sanity you save may be your own—you might be the one making the changes.
+> Never assume something is finished—leave room to grow, but preserve each stable state. Record full details of additions or changes in self-contained documents independent of the system. Use comments like “If you ever need to…”. clear yet flexible connections between different components enable new methods to replace old ones without conflict. Above all, avoid complete rebuilds by using modular elements that can be updated or replaced independently without disrupting what already works. New functions should plug in without disruption. When future-proofing, you will also save your own sanity if you end up being the one making the changes!
