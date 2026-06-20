@@ -1,7 +1,7 @@
-# Basics of the Unix Philosophy for life
-{: .no_toc}
-
 ![Golden section image](phi.jpg "symmetrical geometric illustration based on the golden section with red triangle at centre")
+# Basics of the Unix Philosophy for life
+
+{: .no_toc}
 
 * auto-gen TOC:
 {:toc}
