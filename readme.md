@@ -1,3 +1,5 @@
+![Unix logo](images/unix_thumbnail.png "Unix logo showing components fitting like a jigsaw")
+
 # Basics of the Unix Philosophy
 
 > Be generous in what you accept, rigorous in what you emit.  
@@ -13,5 +15,4 @@ See Eric Raymond’s version of the original [Basics of the Unix Philosophy](htt
 
 TO DO
 
-- [ ] finish translating the remaining principles
 - [ ] adapt bottom paras from `unix-basics` file

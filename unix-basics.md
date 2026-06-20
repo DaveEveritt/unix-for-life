@@ -1,3 +1,5 @@
+![Quote summarising Unix philosophy](images/unix-Douglas-McIlroy-Quote.jpg)
+
 # The original “Basics of the Unix Philosophy” (for reference)
 
 Adapted from [Eric Raymond's version](http://www.catb.org/~esr/writings/taoup/html/) [and this version](https://www.arp242.net/the-art-of-unix-programming/)
