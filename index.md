@@ -1,7 +1,7 @@
 # Basics of the Unix Philosophy for life
 {: .no_toc}
 
-([GitHub repo](https://github.com/DaveEveritt/unix-for-life))
+![Golden section image](phi.jpg "symmetrical geometric illustration based on the golden section with red triangle at centre")
 
 * auto-gen TOC:
 {:toc}
@@ -71,3 +71,7 @@
 ## Extensibility: Anticipate the Future, Because it Will be Here Sooner Than You Think
 
 > Never assume something is finished—leave room to grow, but preserve each stable state. Record full details of additions or changes in self-contained documents independent of the system. Use comments like “If you ever need to…”. clear yet flexible connections between different components enable new methods to replace old ones without conflict. Above all, avoid complete rebuilds by using modular elements that can be updated or replaced independently without disrupting what already works. New functions should plug in without disruption. When future-proofing, you will also save your own sanity if you end up being the one making the changes!
+
+---
+
+([See GitHub repo](https://github.com/DaveEveritt/unix-for-life))

@@ -1,5 +1,3 @@
-![Golden section image](phi.jpg "symmetrical geometric illustration based on the golden section with red triangle at centre")
-
 # The original “Basics of the Unix Philosophy” (for reference)
 
 Adapted from [Eric Raymond's version](http://www.catb.org/~esr/writings/taoup/html/) [and this version](https://www.arp242.net/the-art-of-unix-programming/)
